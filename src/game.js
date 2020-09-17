@@ -39,7 +39,6 @@ export default class Game {
 
   update(deltaTime, cxt) {
     if (
-      this.resources.length > 0 &&
       this.resources.length < 10 &&
       this.resources.length < Math.min(...this.delta)
     ) {
